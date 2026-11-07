@@ -141,6 +141,14 @@ return [
     'cell_border_none' => 'None',
     'cell_border_hidden' => 'Hidden',
 
+    // Table copy & paste errors
+    'table_error_copy_merged_rows' => 'Cannot copy rows with merged cells',
+    'table_error_copy_inconsistent_rows' => 'Cannot copy rows with inconsistent sizes',
+    'table_error_paste_wide_rows' => 'Cannot paste rows that are wider than target table',
+    'table_error_copy_merged_columns' => 'Cannot copy columns with merged cells',
+    'table_error_copy_inconsistent_columns' => 'Cannot copy columns with inconsistent sizes',
+    'table_error_paste_tall_columns' => 'Cannot paste columns that are taller than target table',
+
     // Images, links, details/summary & embed
     'source' => 'Source',
     'alt_desc' => 'Alternative description',

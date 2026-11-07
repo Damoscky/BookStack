@@ -32,7 +32,7 @@ export function buildEditorUI(containerDOM: HTMLElement, editor: LexicalEditor, 
         },
         error(error: string|Error): void {
             const message = error instanceof Error ? error.message : error;
-            window.$events.error(message); // TODO - Translate
+            window.$events.error(context.translate(message));
         },
         options,
     };
